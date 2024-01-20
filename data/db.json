@@ -1,0 +1,416 @@
+{
+  "seller": [
+    {
+      "id": 4,
+      "firstName": "Karen",
+      "surname": "Slater",
+      "address": "4 High Street, Cardiff",
+      "postcode": "CF1 1AD",
+      "phone": "01234567893"
+    },
+    {
+      "id": 5,
+      "firstName": "Jade",
+      "surname": "Huang",
+      "address": "5 Main Street, Beijing",
+      "postcode": "100001",
+      "phone": "1234567890"
+    },
+    {
+      "id": 6,
+      "firstName": "Andy",
+      "surname": "Smith",
+      "address": "6 Broad Street, Cardiff",
+      "postcode": "CF1 1AE",
+      "phone": "01234567894"
+    },
+    {
+      "id": 7,
+      "firstName": "Sarah",
+      "surname": "Miller",
+      "address": "7 High Street, Swansea",
+      "postcode": "SA1 1AF",
+      "phone": "01234567895"
+    },
+    {
+      "id": 8,
+      "firstName": "Chris",
+      "surname": "Roberts",
+      "address": "8 Main Street, Cardiff",
+      "postcode": "CF1 1AG",
+      "phone": "01234567896"
+    },
+    {
+      "id": 9,
+      "firstName": "Lucy",
+      "surname": "Brown",
+      "address": "9 Low Street, Cardiff",
+      "postcode": "CF1 1AH",
+      "phone": "01234567897"
+    },
+    {
+      "id": 10,
+      "firstName": "Tom",
+      "surname": "Taylor",
+      "address": "10 High Street, Cardiff",
+      "postcode": "CF1 1AI",
+      "phone": "01234567898"
+    },
+    {
+      "id": 11,
+      "firstName": "Sophie",
+      "surname": "Williams",
+      "address": "11 Main Street, Cardiff",
+      "postcode": "CF1 1AJ",
+      "phone": "01234567899"
+    },
+    {
+      "id": 12,
+      "firstName": "David",
+      "surname": "Evans",
+      "address": "12 Low Street, Cardiff",
+      "postcode": "CF1 1AK",
+      "phone": "01234567810"
+    },
+    {
+      "firstName": "Max",
+      "surname": "Beef",
+      "address": "prem beef, dundee",
+      "postcode": "BEE7 4LF",
+      "phone": "0123434535",
+      "id": 15
+    }
+  ],
+  "property": [
+    {
+      "id": 1,
+      "firstName": "Alice",
+      "surname": "Johnson",
+      "address": "42 Pen-y-lan Road, Cardiff",
+      "postcode": "CA1 8RR",
+      "phone": "01234567890",
+      "bedroom": "4",
+      "garden": "2",
+      "type": "APARTMENT",
+      "price": "175000",
+      "status": "FOR SALE",
+      "img": "img1.jpg"
+    },
+    {
+      "id": 2,
+      "address": "22 Maple Street, Maple City",
+      "postcode": "MC1 1MC",
+      "type": "SEMI",
+      "price": 150000,
+      "bedroom": 4,
+      "bathroom": 2,
+      "garden": 1,
+      "sellerId": 2,
+      "status": "FOR SALE",
+      "img": "img2.jpg"
+    },
+    {
+      "id": 3,
+      "address": "8 Rose Street, Roseville",
+      "postcode": "RV1 2RV",
+      "type": "APARTMENT",
+      "price": 120000,
+      "bedroom": 2,
+      "bathroom": 1,
+      "garden": "1",
+      "sellerId": 3,
+      "status": "FOR SALE",
+      "img": "img3.jpg",
+      "buyerId": 4
+    },
+    {
+      "id": 4,
+      "address": "15 Elm Street, Elmville",
+      "postcode": "EV1 1EV",
+      "type": "SEMI",
+      "price": 180000,
+      "bedroom": 4,
+      "bathroom": 2,
+      "garden": 1,
+      "sellerId": 4,
+      "status": "FOR SALE",
+      "img": "img4.jpg"
+    },
+    {
+      "id": 5,
+      "address": "3 Oak Street, Oakton",
+      "postcode": "OT1 1OT",
+      "type": "SEMI",
+      "price": 160000,
+      "bedroom": 3,
+      "bathroom": 1,
+      "garden": 1,
+      "sellerId": 5,
+      "status": "SOLD",
+      "img": "img5.jpg",
+      "buyerId": 5
+    },
+    {
+      "id": 6,
+      "address": "10 Pine Street, Pinewood",
+      "postcode": "PW1 1PW",
+      "type": "APARTMENT",
+      "price": 130000,
+      "bedroom": 2,
+      "bathroom": 1,
+      "garden": 0,
+      "sellerId": 6,
+      "status": "FOR SALE",
+      "img": "img6.jpg"
+    },
+    {
+      "id": 7,
+      "address": "Guinness Store House, Dublin",
+      "postcode": "DB1 8HF",
+      "type": "SEMI",
+      "price": "100000000",
+      "bedroom": "8",
+      "bathroom": 2,
+      "garden": "1",
+      "sellerId": 7,
+      "status": "FOR SALE",
+      "buyerId": 6,
+      "img": "img7.jpg"
+    },
+    {
+      "id": 8,
+      "address": "29 Cedar Street, Cedartown",
+      "postcode": "CT1 1CT",
+      "type": "APARTMENT",
+      "price": 200000,
+      "bedroom": 5,
+      "bathroom": 3,
+      "garden": "2",
+      "sellerId": 8,
+      "status": "FOR SALE",
+      "img": "img8.jpg"
+    },
+    {
+      "id": 9,
+      "address": "12 Willow Street, Willowvale",
+      "postcode": "WV1 1WV",
+      "type": "APARTMENT",
+      "price": 140000,
+      "bedroom": 2,
+      "bathroom": 1,
+      "garden": "0",
+      "sellerId": 9,
+      "status": "FOR SALE",
+      "buyerId": 7,
+      "img": "img9.jpg"
+    },
+    {
+      "address": "prem beef, dundee",
+      "postcode": "fdfdf",
+      "gardens": "2",
+      "bathrooms": "2",
+      "price": "42342",
+      "status": "FOR SALE",
+      "type": "SEMI",
+      "id": 10
+    }
+  ],
+  "buyer": [
+    {
+      "id": 2,
+      "firstName": "David",
+      "surname": "Williams",
+      "address": "100 Magor Road, Newport",
+      "postcode": "NP1 2LL",
+      "phone": "01234567891"
+    },
+    {
+      "id": 3,
+      "firstName": "Sophie",
+      "surname": "Clark",
+      "address": "Very Rich Street, London",
+      "postcode": "W1",
+      "phone": "01234567892"
+    },
+    {
+      "id": 4,
+      "firstName": "Oliver",
+      "surname": "Smith",
+      "address": "24 Meadow Lane, Bristol",
+      "postcode": "BS1 3AB",
+      "phone": "01234567893"
+    },
+    {
+      "id": 5,
+      "firstName": "Emily",
+      "surname": "Taylor",
+      "address": "5 Woodland Way, Manchester",
+      "postcode": "M1 4XY",
+      "phone": "01234567894"
+    },
+    {
+      "id": 6,
+      "firstName": "Charlotte",
+      "surname": "Brown",
+      "address": "8 Coral Street, Brighton",
+      "postcode": "BN1 7ZZ",
+      "phone": "01234567895"
+    },
+    {
+      "id": 7,
+      "firstName": "Jack",
+      "surname": "Miller",
+      "address": "10 Park Lane, Edinburgh",
+      "postcode": "EH1 9FG",
+      "phone": "01234567896"
+    },
+    {
+      "id": 8,
+      "firstName": "Sophia",
+      "surname": "Jones",
+      "address": "15 Cheese Street, Glasgow",
+      "postcode": "G1 5RE",
+      "phone": "01234567897"
+    },
+    {
+      "id": 9,
+      "firstName": "James",
+      "surname": "Roberts",
+      "address": "3 Catnip Close, Liverpool",
+      "postcode": "L1 2CD",
+      "phone": "01234567898"
+    },
+    {
+      "id": 10,
+      "firstName": "Grace",
+      "surname": "Turner",
+      "address": "12 Burrow Avenue, Nottingham",
+      "postcode": "NG1 6EF",
+      "phone": "01234567899"
+    },
+    {
+      "id": 11,
+      "firstName": "William",
+      "surname": "Hill",
+      "address": "7 Paw Prints Street, Leeds",
+      "postcode": "LS1 8GH",
+      "phone": "01234567810"
+    },
+    {
+      "id": 12,
+      "firstName": "Ava",
+      "surname": "Evans",
+      "address": "22 Feather Lane, Newcastle",
+      "postcode": "NE1 3PW",
+      "phone": "01234567811"
+    },
+    {
+      "id": 13,
+      "firstName": "Liam",
+      "surname": "White",
+      "address": "2 Yarn Road, Southampton",
+      "postcode": "SO1 4KN",
+      "phone": "01234567812"
+    },
+    {
+      "firstName": "Max",
+      "surname": "Beef",
+      "address": "prem beef, dundee",
+      "postcode": "BEE7 4LF",
+      "phone": "0123434535",
+      "id": 14
+    }
+  ],
+  "booking": [
+    {
+      "buyerId": 1,
+      "propertyId": 2,
+      "time": "2023-02-28T08:00:00.038Z",
+      "id": 2
+    },
+    {
+      "buyerId": 2,
+      "propertyId": 3,
+      "time": "2023-03-01T10:30:00.045Z",
+      "id": 3
+    },
+    {
+      "buyerId": 3,
+      "propertyId": 1,
+      "time": "2023-03-02T13:15:00.021Z",
+      "id": 4
+    },
+    {
+      "buyerId": 4,
+      "propertyId": 5,
+      "time": "2023-03-03T15:45:00.012Z",
+      "id": 5
+    },
+    {
+      "buyerId": 5,
+      "propertyId": 8,
+      "time": "2023-03-04T09:00:00.030Z",
+      "id": 6
+    },
+    {
+      "buyerId": 6,
+      "propertyId": 10,
+      "time": "2023-03-05T11:30:00.018Z",
+      "id": 7
+    },
+    {
+      "buyerId": 7,
+      "propertyId": 12,
+      "time": "2023-03-06T14:45:00.025Z",
+      "id": 8
+    },
+    {
+      "buyerId": 8,
+      "propertyId": 15,
+      "time": "2023-03-07T16:30:00.027Z",
+      "id": 9
+    },
+    {
+      "buyerId": 9,
+      "propertyId": 7,
+      "time": "2023-03-08T12:00:00.035Z",
+      "id": 10
+    },
+    {
+      "buyerId": 10,
+      "propertyId": 11,
+      "time": "2023-03-09T09:15:00.040Z",
+      "id": 11
+    },
+    {
+      "buyerId": 11,
+      "propertyId": 13,
+      "time": "2023-03-10T17:00:00.015Z",
+      "id": 12
+    },
+    {
+      "buyerId": 12,
+      "propertyId": 4,
+      "time": "2023-03-11T08:45:00.032Z",
+      "id": 13
+    },
+    {
+      "buyerId": 13,
+      "propertyId": 6,
+      "time": "2023-03-12T10:00:00.028Z",
+      "id": 14
+    },
+    {
+      "buyerId": 14,
+      "propertyId": 9,
+      "time": "2023-03-13T14:30:00.022Z",
+      "id": 15
+    },
+    {
+      "buyerId": 15,
+      "propertyId": 14,
+      "time": "2023-03-14T16:15:00.020Z",
+      "id": 16
+    }
+  ]
+}
